@@ -18,6 +18,10 @@ body {
 
 }
 
+::-webkit-scrollbar {
+    size: 0px;
+}
+
 
 /* Yeşil Cursor */
 
