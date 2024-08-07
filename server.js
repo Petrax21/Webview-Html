@@ -1,5 +1,4 @@
 const express = require('express');
-const bodyParser = require('body-parser');
 const fs = require('fs');
 const path = require('path');
 const app = express();
@@ -8,11 +7,14 @@ const port = 3000;
 // Statik dosyalara hizmet vermek için public dizinini kullan
 app.use(express.static(path.join(__dirname, 'public')));
 
-// JSON verileri için body-parser'ı kullan
-app.use(bodyParser.json());
+// JSON verileri için express.json() kullan
+app.use(express.json());
 
 app.post('/save-contact', (req, res) => {
     const { firstName, lastName, phone } = req.body;
+    if (!firstName || !lastName || !phone) {
+        return res.status(400).send('Tüm alanlar gereklidir');
+    }
     const contact = `${firstName},${lastName},${phone}\n`;
     fs.appendFile('hesap.txt', contact, (err) => {
         if (err) {
@@ -25,6 +27,9 @@ app.post('/save-contact', (req, res) => {
 
 app.post('/delete-contact', (req, res) => {
     const { firstName, lastName, phone } = req.body;
+    if (!firstName || !lastName || !phone) {
+        return res.status(400).send('Tüm alanlar gereklidir');
+    }
     fs.readFile('hesap.txt', 'utf8', (err, data) => {
         if (err) {
             console.error('Dosya okunamadı:', err);
