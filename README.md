@@ -21,9 +21,4 @@ int main() {
 
 ```  
 webview aktarılırken bu kod sayesinde okunmasını sağlanacak aynı zamanda başka bir cihazdan rehber düzenlenebilir olmasını sağlayacak.
-
-<button name="button"  onclick="location.href='https://telefon-rehberi.onrender.com'">Rehber </button>  
-[![Button Example]][[Link]]  
-[Link]: # '[https://telefon-rehberi.onrender.com']
-[Button Example]: https://img.shields.io/badge/Title-37a779?style=for-the-badge  
-style=" width: 100px; height: 100px; border-radius: 32%; background-color: gold; color: black; font-size: 150%; font-weight: 600; border-color: gold;"  
+<button> Rehber </button>
