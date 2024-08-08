@@ -22,6 +22,4 @@ int main() {
 ```  
 webview aktarılırken bu kod sayesinde okunmasını sağlanacak aynı zamanda başka bir cihazdan rehber düzenlenebilir olmasını sağlayacak.  
 
-<button> Rehber </button>
-
-[![Rehber] (https://travis-ci.org/joemccann/dillinger) https://telefon-rehberi.onrender.com]
+[![Rehber](https://img.shields.io/badge/Rehber-37a779?style=for-the-badge)](https://telefon-rehberi.onrender.com)
