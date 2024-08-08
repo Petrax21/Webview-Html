@@ -4,10 +4,9 @@ const path = require('path');
 const app = express();
 const port = 3000;
 
-// Statik dosyalara hizmet vermek için public dizinini kullan
+
 app.use(express.static(path.join(__dirname, 'public')));
 
-// JSON verileri için express.json() kullan
 app.use(express.json());
 
 app.post('/save-contact', (req, res) => {
