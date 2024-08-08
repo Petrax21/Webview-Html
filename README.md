@@ -1,7 +1,7 @@
 # telefon-rehberi
 
-başlatma olarak - npm start 
-web site - https://telefon-rehberi.onrender.com // 30 dakika işlem yapılmazsa tekrar açılması 30-60 saniye arasında olabiliyor ramdan tasarruf amaçlı
+başlatma olarak - npm start   
+web site - https://telefon-rehberi.onrender.com // 30 dakika işlem yapılmazsa tekrar açılması 30-60 saniye arasında olabiliyor ramdan tasarruf amaçlı  
 
 ```c++
 int main() {
@@ -19,7 +19,7 @@ int main() {
     return 0;
 }
 
-```
+```  
 webview aktarılırken bu kod sayesinde okunmasını sağlanacak aynı zamanda başka bir cihazdan rehber düzenlenebilir olmasını sağlayacak.
 
 
