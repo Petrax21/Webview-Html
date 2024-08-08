@@ -25,3 +25,4 @@ webview aktarılırken bu kod sayesinde okunmasını sağlanacak aynı zamanda b
 [![Rehber](https://img.shields.io/badge/Rehber-37a779?style=for-the-badge)](https://telefon-rehberi.onrender.com)  
 
 
+![Steam Downloads](https://img.shields.io/steam/downloads/1593500)
