@@ -1,4 +1,4 @@
-# telefon-rehberi
+# Phone Directory
 
 başlatma olarak - npm start   
 web site - https://telefon-rehberi.onrender.com // 30 dakika işlem yapılmazsa tekrar açılması 30-60 saniye arasında olabiliyor ramdan tasarruf amaçlı  
